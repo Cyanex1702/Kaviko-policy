@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Privacy Policy for KAVIKO, an Android media player and downloader.">
+  <meta name="robots" content="index,follow">
+  <title>Privacy Policy | KAVIKO</title>
+  <style>
+    :root { color-scheme: light; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif; }
+    * { box-sizing: border-box; }
+    body { margin: 0; color: #1b2940; background: #f4f7fb; line-height: 1.72; font-size: 16px; }
+    header { background: #0f2038; color: #fff; padding: 42px 22px 36px; }
+    .wrap { max-width: 820px; margin: 0 auto; }
+    .eyebrow { font-size: 13px; font-weight: 750; letter-spacing: .15em; color: #bcd7fd; margin: 0 0 6px; }
+    h1 { font-size: clamp(30px, 6vw, 42px); margin: 0 0 6px; line-height: 1.2; }
+    header p { margin: 0; color: #d5e0f0; }
+    main { background: #fff; padding: 34px clamp(20px, 5vw, 48px) 46px; margin: 24px auto 40px; border: 1px solid #e1e6ee; border-radius: 14px; }
+    h2 { margin-top: 32px; margin-bottom: 8px; color: #132944; font-size: 21px; line-height: 1.4; }
+    h2:first-child { margin-top: 0; }
+    p { margin: 8px 0 14px; }
+    ul { padding-left: 22px; }
+    li { margin: 5px 0; }
+    a { color: #1459ad; text-decoration: underline; text-underline-offset: 2px; overflow-wrap: anywhere; }
+    .meta { font-size: 14px; color: #5c6777; margin-top: 0; }
+    .note { border-left: 4px solid #316db7; background: #f4f8fe; padding: 14px 18px; margin: 20px 0; border-radius: 0 8px 8px 0; }
+    footer { text-align: center; color: #637186; font-size: 13px; padding: 0 20px 36px; }
+    a:focus-visible { outline: 3px solid #ee9a1b; outline-offset: 3px; }
+    @media (max-width: 650px) { header { padding-top: 30px; } main { border-radius: 0; margin-top: 0; border-left: 0; border-right: 0; } }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <p class="eyebrow">KAVIKO · ANDROID APP</p>
+      <h1>Privacy Policy</h1>
+      <p>How KAVIKO accesses, uses, stores, and transfers information.</p>
+    </div>
+  </header>
+  <main class="wrap" id="main-content">
+    <p class="meta"><strong>Last updated:</strong> October 20, 2026 · <strong>App package:</strong> com.kaviko.app</p>
+    <div class="note"><strong>In short:</strong> KAVIKO is primarily an on-device media player. It does not require a KAVIKO account and has no advertising or analytics SDK. Playback and library data are stored locally. When you request an online download or preview, the app contacts outside content providers, which may receive the URL you requested and normal network information such as your IP address.</div>
+
+    <h2>1. About KAVIKO and contact</h2>
+    <p>This policy applies to the KAVIKO Android media player and downloader (package <strong>com.kaviko.app</strong>). For privacy questions, support, or requests, contact <a href="mailto:kaviko.support@gmail.com">kaviko.support@gmail.com</a>.</p>
+
+    <h2>2. Information kept on your device</h2>
+    <p>KAVIKO accesses and processes local media to provide playback and library features. Your library information, playlists, favorites, playback history, preferences, imported lyrics, hidden or protected media settings, and optional mood-analysis results are stored locally in the app's storage. Mood analysis is performed on-device. KAVIKO does not maintain a developer-operated account system, advertising service, analytics SDK, or cloud library for this data.</p>
+    <p>Android backup of the app's private data is disabled. KAVIKO uses its own installation and app storage and does not import the former Omni app's private history or settings.</p>
+
+    <h2>3. Device permissions and media access</h2>
+    <ul>
+      <li><strong>Music and video:</strong> Android media permissions let KAVIKO discover and play files that you allow it to access. You can limit or revoke permissions through Android Settings.</li>
+      <li><strong>Folder access / Status Saver:</strong> KAVIKO can read a folder you explicitly select through Android's system folder picker and save copies of the selected files locally. This feature does not sign in to WhatsApp or access private message databases.</li>
+      <li><strong>Audio visualizer:</strong> KAVIKO requests Android's <code>RECORD_AUDIO</code> permission for its playback-session visualizer. It does not record your conversations, upload microphone audio, or retain visualizer samples.</li>
+      <li><strong>Clipboard:</strong> The app reads a link from the clipboard when you deliberately use its Paste action, not by continuously monitoring the clipboard in the background.</li>
+      <li><strong>Notifications and network:</strong> The app may use notifications for playback and download status, and network access for the online features described below.</li>
+    </ul>
+
+    <h2>4. Downloads, previews and outside websites</h2>
+    <p>If you paste, share, or open a website URL in KAVIKO to inspect, preview, or download content, KAVIKO uses that link to contact the content provider and related servers needed to fetch metadata, artwork, or media. These external services can receive the URL being requested and standard network request information, which can include your IP address. Content providers and their delivery services may process or retain that information under their own privacy policies.</p>
+    <p>The downloader uses tools including yt-dlp, FFmpeg, and aria2c. Download-engine updates and related version checks can contact GitHub and yt-dlp release endpoints. KAVIKO does not operate these external services or control their retention practices.</p>
+    <p>Recent download links are kept locally, limited to ten distinct links, and can be cleared in the Downloads area. Not every supported content source or URL guarantees encryption: connection security depends in part on the URL, the provider, and the download tools. Avoid entering sensitive or private links unless you trust the destination.</p>
+
+    <h2>5. Sharing with other apps</h2>
+    <p>When you choose to share a link or media file, KAVIKO uses Android's sharing features to pass the selected content to the app or service you choose. That recipient's own data-handling and privacy practices apply. KAVIKO does not sell your personal information.</p>
+
+    <h2>6. Security</h2>
+    <p>KAVIKO stores its internal app data on your device using Android's application storage controls and uses the Android system permission and file-selection mechanisms. Its Privacy Shield relies on device authentication for protected in-app media access. Network requests use the security supported by the destination and transfer technology; KAVIKO cannot promise encryption for every external source. You control the permissions you grant and the sources you choose to visit or download from.</p>
+
+    <h2>7. Retention, deletion and user control</h2>
+    <ul>
+      <li>Local app settings, playback history, and related internal data remain on the device until cleared or until you uninstall the app, subject to Android's storage behavior.</li>
+      <li>Use KAVIKO's relevant history/Downloads controls where available, or Android <strong>Settings → Apps → KAVIKO → Storage</strong> to clear app storage.</li>
+      <li>Uninstalling KAVIKO removes its private app data. Media files saved or exported to shared storage may remain and must be deleted separately by you.</li>
+      <li>Revoking media or folder access stops future access through that permission. Clearing a playback queue does not delete your original media.</li>
+      <li>KAVIKO has no cloud account or developer-operated user-data database to erase. For questions or requests relating to KAVIKO, email <a href="mailto:kaviko.support@gmail.com">kaviko.support@gmail.com</a>. For information handled by outside content providers or apps, contact those services directly.</li>
+    </ul>
+
+    <h2>8. Third-party platforms and user choices</h2>
+    <p>KAVIKO is not affiliated with the websites from which you may choose to download or preview content, or with WhatsApp. You are responsible for choosing the content you access and ensuring that you have the rights to download or share it. Third-party websites and apps may have separate terms and privacy policies.</p>
+
+    <h2>9. Changes to this policy</h2>
+    <p>We may update this policy if KAVIKO's functionality or data practices change. Changes will be reflected on this page with a revised update date. Material changes to the app's data practices may also require updates to its Google Play Data safety disclosures.</p>
+
+    <h2>10. Contact</h2>
+    <p>Privacy and support email: <a href="mailto:kaviko.support@gmail.com">kaviko.support@gmail.com</a>.</p>
+  </main>
+  <footer>© 2026 KAVIKO. This page does not use analytics, ads, cookies, or external scripts.</footer>
+</body>
+</html>
